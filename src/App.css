@@ -1,0 +1,52 @@
+.container {
+    background: url(bg.jpg) no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+.row {
+    margin: 0 auto;
+    width: 900px;
+}
+#root {
+    text-align: center;
+}
+
+.list {
+  margin: 0 0 22px;
+  width: auto;
+}
+.list_item {
+  padding: 10px;
+}
+.cont {
+    background: #fff;
+    border-radius: 2px;
+    display: inline-block;
+    height: 300px;
+    margin: 1rem;
+    position: relative;
+    width: 300px;
+    box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+    transition: all 0.3s cubic-bezier(.25,.8,.25,1);
+}
+.header {
+    background: #2623AF;
+    padding: 5px;
+    color: #fff;
+    font-weight: 300;
+    text-align: center;
+    font-size: 18px;
+    font-family: 'Roboto', sans-serif;
+}
+.cont img {
+  background: #000;
+  float: left;
+  padding: 10px;
+  margin: 10px;
+}
+@keyframes App-logo-spin {
+  from { transform: rotate(0deg); }
+  to { transform: rotate(360deg); }
+}
